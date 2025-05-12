@@ -4,6 +4,17 @@ A simple ray tracer using the Swift, C++ interop following
 [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
  .
 
+## Run
+
+The program outputs the image to standard out so we can capture the output into
+a file.
+
+```console
+swift run > image.ppm
+```
+
+Open image.ppm using something that supports the `.ppm` image format.
+
 ## Why?
 
 I am learning C++ and wanna leverage my knowledge of Swift to do so. I’m sure I
